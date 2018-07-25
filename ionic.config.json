@@ -1,0 +1,8 @@
+{
+  "name": "GPro",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "e9917e22"
+}
