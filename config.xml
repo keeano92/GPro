@@ -84,4 +84,10 @@
     <plugin name="cordova-plugin-geolocation" spec="^4.0.1">
         <variable name="GEOLOCATION_USAGE_DESCRIPTION" value="For Weather on a single location" />
     </plugin>
+    <plugin name="cordova-plugin-googlemaps" spec="^2.3.8">
+        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyDkgBDOK8UL6a5nDIJMv8rX51n2OncYNe0" />
+        <variable name="PLAY_SERVICES_VERSION" value="15.0.1" />
+        <variable name="ANDROID_SUPPORT_V4_VERSION" value="26.1.0" />
+    </plugin>
+    <engine name="android" spec="7.0.0" />
 </widget>
