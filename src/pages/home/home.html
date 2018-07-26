@@ -5,8 +5,12 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Location Currently</h2>
-  <p>Latitude: {{coordinates.latitude}}</p>
-  <p>Longitude: {{coordinates.longitude}}</p>
+  <h2>Your Location Weather Data</h2>
+  <p>Weather ID: {{data?.weather[0].id}}</p>
+  <p>Location: {{data?.name}}</p>
+  <p>Current Weather: {{data?.weather[0].main}}</p>
+  <p>Description: {{data?.weather[0].description}}</p>
+  <p>Weather Icon Code: {{data?.weather[0].icon}}</p>
+  <p>Wind: {{data?.wind.speed}}MPH</p>
   <div #map id="map"></div>
 </ion-content>
